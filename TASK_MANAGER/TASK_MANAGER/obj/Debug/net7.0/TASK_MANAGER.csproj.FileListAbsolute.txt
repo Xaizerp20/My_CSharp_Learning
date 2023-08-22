@@ -1,0 +1,15 @@
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\bin\Debug\net7.0\TASK_MANAGER.exe
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\bin\Debug\net7.0\TASK_MANAGER.deps.json
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\bin\Debug\net7.0\TASK_MANAGER.runtimeconfig.json
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\bin\Debug\net7.0\TASK_MANAGER.dll
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\bin\Debug\net7.0\TASK_MANAGER.pdb
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\obj\Debug\net7.0\TASK_MANAGER.csproj.AssemblyReference.cache
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\obj\Debug\net7.0\TASK_MANAGER.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\obj\Debug\net7.0\TASK_MANAGER.AssemblyInfoInputs.cache
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\obj\Debug\net7.0\TASK_MANAGER.AssemblyInfo.cs
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\obj\Debug\net7.0\TASK_MANAGER.csproj.CoreCompileInputs.cache
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\obj\Debug\net7.0\TASK_MANAGER.dll
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\obj\Debug\net7.0\refint\TASK_MANAGER.dll
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\obj\Debug\net7.0\TASK_MANAGER.pdb
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\obj\Debug\net7.0\TASK_MANAGER.genruntimeconfig.cache
+c:\Users\xavic\Desktop\C#_BACKEND_STUDY\TASK_MANAGER\TASK_MANAGER\obj\Debug\net7.0\ref\TASK_MANAGER.dll
