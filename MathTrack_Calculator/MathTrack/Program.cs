@@ -12,14 +12,21 @@ namespace MathTrack
             double N1 = 0;
             double N2 = 0;
             double result = 0;
+            
+            List<string> historical = new List<string>();
+
+
 
 
 
             while (true)
             {
 
+                
+                
+
                 /****** MENU *******/
-                Console.WriteLine("**** Math Track ****");
+                Console.WriteLine("\n**** Math Track ****");
 
                 Console.WriteLine(" 1. Addition \n 2. Substraction \n 3. Multiplication \n 4. Division \n 5. History \n 6. Exit\n");
 
@@ -28,19 +35,39 @@ namespace MathTrack
 
 
                 //if select option 6 finish program
-                if(op == 6){
+                if (op == 6)
+                {
                     return;
                 }
 
-                Console.Write("Enter the first Number: ");
-                N1 = Convert.ToInt32(Console.ReadLine());
+                else if (op == 5)
+                {  
+
+                    Console.WriteLine("***** HISTORICAL *******")
+
+                    foreach (string s in historical){
+                        Console.WriteLine(s);
+                    }
+
+                    continue;
+                }
+                else
+                {
+
+                    Console.Write("Enter the first Number: ");
+                    N1 = Convert.ToInt32(Console.ReadLine());
 
 
-                Console.Write("Enter the first Number: ");
-                N2 = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Enter the first Number: ");
+                    N2 = Convert.ToInt32(Console.ReadLine());
 
-                result = WorkOperation(op, N1, N2); //execute operation
-                Console.Write($"Result: {result}\n\n");
+                    result = WorkOperation(op, N1, N2); //execute operation
+                    Console.Write($"Result: {result}\n\n");
+                }
+
+
+
+
             }
 
 
@@ -49,23 +76,28 @@ namespace MathTrack
 
                 double result;
 
+
                 switch (operation)
                 {
 
                     case 1:
                         result = N1 + N2;
+                        historical.Add($"{N1} + {N2} = {result}");
                         break;
 
                     case 2:
                         result = N1 - N2;
+                        historical.Add($"{N1} - {N2} = {result}");
                         break;
 
                     case 3:
                         result = N1 * N2;
+                        historical.Add($"{N1} x {N2} = {result}");
                         break;
 
                     case 4:
                         result = N1 / N2;
+                        historical.Add($"{N1} / {N2} = {result}");
                         break;
 
                     default:
