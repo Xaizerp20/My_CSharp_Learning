@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\FIBONACCI_CALCULATOR\\FIBONACCI_CALCULATOR\\FIBONACCI_CALCULATOR.csproj": {}
+    "C:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\MathTrack_Calculator\\MathTrack\\MathTrack.csproj": {}
   },
   "projects": {
-    "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\FIBONACCI_CALCULATOR\\FIBONACCI_CALCULATOR\\FIBONACCI_CALCULATOR.csproj": {
+    "C:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\MathTrack_Calculator\\MathTrack\\MathTrack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\FIBONACCI_CALCULATOR\\FIBONACCI_CALCULATOR\\FIBONACCI_CALCULATOR.csproj",
-        "projectName": "FIBONACCI_CALCULATOR",
-        "projectPath": "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\FIBONACCI_CALCULATOR\\FIBONACCI_CALCULATOR\\FIBONACCI_CALCULATOR.csproj",
+        "projectUniqueName": "C:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\MathTrack_Calculator\\MathTrack\\MathTrack.csproj",
+        "projectName": "MathTrack",
+        "projectPath": "C:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\MathTrack_Calculator\\MathTrack\\MathTrack.csproj",
         "packagesPath": "C:\\Users\\xavic\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\FIBONACCI_CALCULATOR\\FIBONACCI_CALCULATOR\\obj\\",
+        "outputPath": "C:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\MathTrack_Calculator\\MathTrack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,15 @@
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\bin\Debug\net7.0\MathTrack.exe
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\bin\Debug\net7.0\MathTrack.deps.json
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\bin\Debug\net7.0\MathTrack.runtimeconfig.json
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\bin\Debug\net7.0\MathTrack.dll
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\bin\Debug\net7.0\MathTrack.pdb
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\obj\Debug\net7.0\MathTrack.csproj.AssemblyReference.cache
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\obj\Debug\net7.0\MathTrack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\obj\Debug\net7.0\MathTrack.AssemblyInfoInputs.cache
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\obj\Debug\net7.0\MathTrack.AssemblyInfo.cs
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\obj\Debug\net7.0\MathTrack.csproj.CoreCompileInputs.cache
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\obj\Debug\net7.0\MathTrack.dll
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\obj\Debug\net7.0\refint\MathTrack.dll
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\obj\Debug\net7.0\MathTrack.pdb
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\obj\Debug\net7.0\MathTrack.genruntimeconfig.cache
+C:\Users\xavic\Desktop\C#_BACKEND_STUDY\MathTrack_Calculator\MathTrack\obj\Debug\net7.0\ref\MathTrack.dll
