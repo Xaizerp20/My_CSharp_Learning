@@ -9,7 +9,8 @@ namespace TASK_MANAGER
         public static string taskDescription = null!;
         public static Priority taskPriority = Priority.Low;
         public static string taskDueDate = null!;
-        public static List<string> ListTask = new List<string>();
+        public static Dictionary<int, string> PendingTasks = new Dictionary<int, string>();
+        public static Dictionary<int, string> CompletedTasks = new Dictionary<int, string>();
 
         static void Main(string[] args)
         {
@@ -19,7 +20,7 @@ namespace TASK_MANAGER
 
             while (true)
             {
-                Console.WriteLine("Task Manager");
+                Console.WriteLine("\nTask Manager");
                 Console.WriteLine("------------");
 
                 Console.WriteLine("1. Add Task \n2. Mask Task as Completed \n3. View pending Tasks \n4. View Completed Tasks \n5. Exit");
@@ -32,15 +33,34 @@ namespace TASK_MANAGER
                 if (choice == 1)
                 {
                     CreateTask();
+
+                }
+                else if (choice == 2)
+                {
+                    CompleteTask();
                 }
                 else if (choice == 3)
                 {
-                    int i = 1;
-                    foreach (string task in ListTask)
+                    Console.WriteLine("Pending Tasks: ");
+                    foreach (KeyValuePair<int, string> task in PendingTasks)
                     {
-                        Console.WriteLine($"{i++}. {task}");
+                        Console.WriteLine($"    {task.Key}. {task.Value}");
                     }
                 }
+                else if (choice == 4)
+                {
+                    Console.WriteLine("Completed Tasks: ");
+                    foreach (KeyValuePair<int, string> task in CompletedTasks)
+                    {
+                        Console.WriteLine($"    {task.Key}. {task.Value}");
+                    }
+                }
+                else if (choice == 5)
+                {
+                    break;
+                }
+
+                Thread.Sleep(2000);
             }
 
 
@@ -57,6 +77,11 @@ namespace TASK_MANAGER
             High
         }
 
+        public enum status
+        {
+            pending,
+            Completed
+        }
         //Method to select the priority
         public static Priority SelectorPriority(int option)
         {
@@ -76,6 +101,9 @@ namespace TASK_MANAGER
         //Metho to Create Task and Add to List of Task
         public static void CreateTask()
         {
+
+            int QuantityTasks = PendingTasks.Count();
+
             //Console.Write("Enter Task Name: ");
             //taskName = Console.ReadLine();
 
@@ -85,13 +113,40 @@ namespace TASK_MANAGER
             Console.Write("Select Task Priority: ");
             taskPriority = SelectorPriority(Convert.ToInt16(Console.ReadLine()));
 
-            Console.Write("Enter due date (DD-MM-YYYY):");
+            Console.Write("Enter due date (DD-MM-YYYY): ");
             taskDueDate = Console.ReadLine();
 
-            ListTask.Add($"[{taskPriority}] {taskDescription} ({taskDueDate}) ");
 
-            Console.WriteLine("Task added successfully!");
+            PendingTasks.Add(QuantityTasks + 1, $"[{taskPriority}] {taskDescription} ({taskDueDate}) "); //add task to the list
+
+            Console.WriteLine("\nTask added successfully!\n");
 
         }
+
+        public static void CompleteTask()
+        {
+
+            int QuantityTasks = CompletedTasks.Count();
+
+            foreach (KeyValuePair<int, string> task in PendingTasks)
+            {
+                Console.WriteLine($"{task.Key}. {task.Value}");
+            }
+
+            Console.Write("Enter the number of the task you want to mark as completed: ");
+            int taskId = Convert.ToInt32(Console.ReadLine());
+
+            //Get Task number using Linq Remove Task of Pending list and add Task to Completed list
+            KeyValuePair<int, string> taskPending = PendingTasks.FirstOrDefault(task => task.Key == taskId); //get task using linq
+            PendingTasks.Remove(taskId); //remove task from pending tasks
+
+            string ReformatTask = taskPending.Value.Split("(")[0] + "(Completed)";
+
+            CompletedTasks.Add(QuantityTasks + 1, ReformatTask); //add task to completed tasks
+
+
+            Console.WriteLine("\nTask marked as completed!");
+        }
+
     }
 }
