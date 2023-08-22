@@ -15,23 +15,32 @@ namespace MathTrack
             
             List<string> historical = new List<string>();
 
-
-
-
-
             while (true)
             {
 
-                
-                
-
                 /****** MENU *******/
-                Console.WriteLine("\n**** Math Track ****");
+                Console.WriteLine("\n********** Math Track **********");
+                Console.WriteLine("--------------------------------");
 
                 Console.WriteLine(" 1. Addition \n 2. Substraction \n 3. Multiplication \n 4. Division \n 5. History \n 6. Exit\n");
 
                 Console.Write("Select Option: ");
-                op = int.Parse(Console.ReadLine());
+
+                
+                try
+                {
+                    op = int.Parse(Console.ReadLine()); //get option value
+                }
+                catch(FormatException)
+                {
+                    Console.WriteLine("Option incorrect, try again");
+                    continue;
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine(ex.StackTrace);
+                }
+
 
 
                 //if select option 6 finish program
@@ -40,10 +49,11 @@ namespace MathTrack
                     return;
                 }
 
+                //option 5 show historical
                 else if (op == 5)
                 {  
 
-                    Console.WriteLine("***** HISTORICAL *******")
+                    Console.WriteLine("***** HISTORICAL *******");
 
                     foreach (string s in historical){
                         Console.WriteLine(s);
@@ -53,16 +63,28 @@ namespace MathTrack
                 }
                 else
                 {
+                
+                    //GET NUMBERS AND EXCUTE OPERATION
 
                     Console.Write("Enter the first Number: ");
                     N1 = Convert.ToInt32(Console.ReadLine());
 
-
                     Console.Write("Enter the first Number: ");
                     N2 = Convert.ToInt32(Console.ReadLine());
 
-                    result = WorkOperation(op, N1, N2); //execute operation
-                    Console.Write($"Result: {result}\n\n");
+
+                    try
+                    {
+                        result = WorkOperation(op, N1, N2); //execute operation
+                         Console.Write($"Result: {result}\n\n");
+                    }
+                    catch
+                    {
+                            Console.WriteLine("Invalid Selection, try again");
+                            
+                    }
+                    
+                   
                 }
 
 
@@ -96,12 +118,22 @@ namespace MathTrack
                         break;
 
                     case 4:
-                        result = N1 / N2;
-                        historical.Add($"{N1} / {N2} = {result}");
+
+                        try
+                        {
+                            result = N1 / N2;
+                            historical.Add($"{N1} / {N2} = {result}");
+                        }
+                        catch(Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                            result = 0;
+                        }
+                        
                         break;
 
                     default:
-                        throw new Exception("");
+                        throw new Exception("Invalid Operation Selection, try again");
 
                 }
 
