@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tc1YqPxyO6DJQwU3shhdzdIteXFNaiGgPLKVWjYES68zLi77DpdSJBpWX2Hf9rSrbWmjldJO2pOWL2Wazt811Q==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xavic\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
