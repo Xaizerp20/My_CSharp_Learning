@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM.csproj": {}
+    "C:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM.csproj": {}
   },
   "projects": {
-    "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM.csproj": {
+    "C:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM.csproj",
+        "projectUniqueName": "C:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM.csproj",
         "projectName": "SECURE_LOGIN_SYSTEM",
-        "projectPath": "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM.csproj",
+        "projectPath": "C:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM.csproj",
         "packagesPath": "C:\\Users\\xavic\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\obj\\",
+        "outputPath": "C:\\Users\\xavic\\Desktop\\C#_BACKEND_STUDY\\SECURE_LOGIN_SYSTEM\\SECURE_LOGIN_SYSTEM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
